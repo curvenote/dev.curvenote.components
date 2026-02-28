@@ -1,0 +1,14 @@
+[agents]
+default = "coder-o"
+
+[site]
+exclude = [
+  ".git/**",
+  ".stencila/**",
+  "stencila.local.toml",
+]
+
+[mcp.servers.context7.transport]
+type = "http"
+url = "https://mcp.context7.com/mcp"
+
