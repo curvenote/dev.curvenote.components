@@ -12,3 +12,5 @@ exclude = [
 type = "http"
 url = "https://mcp.context7.com/mcp"
 
+[agents]
+providers = ["anthropic"]
