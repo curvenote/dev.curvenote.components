@@ -1,6 +1,9 @@
 [agents]
 default = "coder-o"
 
+[models]
+providers = ["anthropic"]
+
 [site]
 exclude = [
   ".git/**",
@@ -11,6 +14,3 @@ exclude = [
 [mcp.servers.context7.transport]
 type = "http"
 url = "https://mcp.context7.com/mcp"
-
-[agents]
-providers = ["anthropic"]

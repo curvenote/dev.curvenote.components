@@ -1,0 +1,40 @@
+version: 1
+project:
+  title: Bluesky Profile Card
+  subtitle: A live Bluesky profile card widget for MyST Markdown and Curvenote
+  description: An AnyWidget ESM module that fetches and renders a Bluesky profile card directly from the AT Protocol public API — no build step, no API key required.
+  github: https://github.com/curvenote/dev.curvenote.components
+  keywords:
+    - bluesky
+    - ui
+    - profile
+  thumbnail: images/thumbnail.png
+  downloads:
+    - url: dist/bluesky-profile-card.js
+      title: dist/bluesky-profile-card.js
+  id: 6d2dae09-0f6a-42e0-b3e0-8a58a5004b2a
+  authors:
+    - name: Steve Purves
+      orcid: 0000-0002-0760-5497
+      corresponding: true
+      email: steve@curvenote.com
+      affiliations:
+        - curvenote
+      url: https://curvenote.com
+      github: stevejpurves
+      bluesky: '@opensci.dev'
+      linkedin: https://www.linkedin.com/in/stevejpurves/
+      id: contributors-curvenote-generated-uid-0
+  affiliations:
+    - id: curvenote
+      name: Curvenote
+  exclude:
+    - _resources/**
+  license: MIT
+site:
+  template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
+  actions:
+    - title: View on GitHub
+      url: https://github.com/curvenote/dev.curvenote.components/tree/main/bluesky
+  domains:
+    - stevejpurves.curve.space

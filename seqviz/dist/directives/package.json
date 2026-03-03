@@ -1,0 +1,11 @@
+{
+  "name": "seqviz",
+  "version": "0.0.0",
+  "description": "The SeqViz plugin requires a local node_modules directory with seqparse installed",
+  "license": "MIT",
+  "author": "Curvenote",
+  "type": "module",
+  "dependencies": {
+    "seqparse": "^0.2.1"
+  }
+}

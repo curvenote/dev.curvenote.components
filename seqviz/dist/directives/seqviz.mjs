@@ -145,7 +145,7 @@ var seqparseTransform = {
 
 // src/seqviz.ts
 var plugin = {
-  name: "SeqViz Plugin for MyST Markdown",
+  name: "SeqViz Plugin",
   directives: [seqVizDirective],
   transforms: [seqparseTransform]
 };

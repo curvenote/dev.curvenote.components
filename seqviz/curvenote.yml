@@ -1,0 +1,51 @@
+version: 1
+project:
+  title: SeqViz
+  subtitle: Interactive DNA sequence visualization for MyST Markdown and Curvenote
+  description: An AnyWidget ESM module and MyST directive for embedding SeqViz — interactive circular and linear sequence maps with annotations. Use the widget alone or with the seqviz directive and seqparse for GenBank, FASTA, and accession IDs.
+  github: https://github.com/curvenote/dev.curvenote.components
+  keywords:
+    - seqviz
+    - sequence
+    - dna
+    - visualization
+    - genbank
+    - fasta
+  thumbnail: images/thumbnail.png
+  plugins:
+    - dist/directives/seqviz.mjs
+  downloads:
+    - url: dist/seqviz.js
+      title: seqviz.js
+    - url: dist/directives/seqviz.mjs
+      title: seqviz.mjs
+    - url: dist/directives/package.json
+      title: package.json
+    - url: AGTR2.gb
+      title: Example Genbank File (AGTR2.gb)
+  id: e411be75-dd18-40fd-b0fc-5446c80f5f27
+  authors:
+    - name: Steve Purves
+      orcid: 0000-0002-0760-5497
+      corresponding: true
+      email: steve@curvenote.com
+      affiliations:
+        - curvenote
+      url: https://curvenote.com
+      github: stevejpurves
+      bluesky: '@opensci.dev'
+      linkedin: https://www.linkedin.com/in/stevejpurves/
+      id: contributors-curvenote-generated-uid-0
+  affiliations:
+    - id: curvenote
+      name: Curvenote
+  exclude:
+    - __resources/**
+  license: MIT
+site:
+  template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
+  actions:
+    - title: View on GitHub
+      url: https://github.com/curvenote/dev.curvenote.components/tree/main/seqviz
+  domains:
+    - stevejpurves.curve.space
