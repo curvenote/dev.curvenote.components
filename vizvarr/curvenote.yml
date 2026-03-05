@@ -1,0 +1,42 @@
+version: 1
+project:
+  title: Vizarr Viewer
+  subtitle: OME-Zarr microscopy viewer widget for MyST Markdown and Curvenote
+  description: An AnyWidget ESM module that embeds vizarr — a client-side, GPU-accelerated viewer for OME-NGFF (OME-Zarr) microscopy data. Pan and zoom over multiscale images served from cloud storage; no server-side processing required.
+  github: https://github.com/curvenote/dev.curvenote.components
+  keywords:
+    - vizarr
+    - ome-zarr
+    - microscopy
+    - visualization
+    - zarr
+  thumbnail: images/thumbnail.png
+  downloads:
+    - url: dist/vizarr-viewer.js
+      title: vizarr-viewer.js
+  id: 95fdea89-9262-4520-937f-ab71fdc7538d
+  authors:
+    - name: Steve Purves
+      orcid: 0000-0002-0760-5497
+      corresponding: true
+      email: steve@curvenote.com
+      affiliations:
+        - curvenote
+      url: https://curvenote.com
+      github: stevejpurves
+      bluesky: '@opensci.dev'
+      linkedin: https://www.linkedin.com/in/stevejpurves/
+      id: contributors-curvenote-generated-uid-0
+  affiliations:
+    - id: curvenote
+      name: Curvenote
+  exclude:
+    - __resources/**
+  license: MIT
+site:
+  template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
+  actions:
+    - title: View on GitHub
+      url: https://github.com/curvenote/dev.curvenote.components/tree/main/vizvarr
+  domains:
+    - stevejpurves.curve.space

@@ -13,7 +13,7 @@ project:
     - fasta
   thumbnail: images/thumbnail.png
   plugins:
-    - dist/directives/seqviz.mjs
+    - dist/myst/seqviz.mjs
   downloads:
     - url: dist/seqviz.js
       title: seqviz.js

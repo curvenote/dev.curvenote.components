@@ -4,7 +4,7 @@ subtitle: Interactive DNA sequence visualization
 description: Embed SeqViz — circular and linear sequence maps with annotations, from file, Accession Number or JSON.
 ---
 
-[SeqViz](https://github.com/Lattice-Automation/seqviz) is an open-source, embeddable library for interactive DNA sequence visualization and annotation on the web. It renders circular and linear maps, supports common formats via [seqparse](https://github.com/Lattice-Automation/seqparse), and displays features, primers, and annotations with fast SVG/Canvas rendering.
+[SeqViz](https://github.com/Lattice-Automation/seqviz) is an open-source, embeddable library for interactive DNA sequence visualization and annotation on the web (@seqviz2020). It renders circular and linear maps, supports common formats via [seqparse](https://github.com/Lattice-Automation/seqparse) (@seqparse2022), and displays features, primers, and annotations with fast SVG/Canvas rendering.
 
 This package gives you two ways to use it in MyST Markdown and Curvenote:
 
