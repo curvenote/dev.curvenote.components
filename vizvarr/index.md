@@ -17,7 +17,7 @@ The viewer below loads a zebrafish embryo dataset from the [Image Data Resource 
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr",
+  "source": "https://livingobjects.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr",
   "height": "600px"
 }
 :::
@@ -30,7 +30,7 @@ Zebrafish embryo (IDR 4495402) — OME-Zarr multiscale image viewed with vizarr.
 ````{code} markdown
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr",
+  "source": "https://livingobjects.ebi.ac.uk/idr/zarr/v0.1/4495402.zarr",
   "height": "600px"
 }
 :::
